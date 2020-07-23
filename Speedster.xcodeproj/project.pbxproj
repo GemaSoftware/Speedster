@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376DCC7024B666FD00E6F4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC6F24B666FD00E6F4FA /* AppDelegate.swift */; };
+		376DCC7224B666FD00E6F4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC7124B666FD00E6F4FA /* SceneDelegate.swift */; };
+		376DCC7424B666FD00E6F4FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC7324B666FD00E6F4FA /* ContentView.swift */; };
+		376DCC7624B6670000E6F4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376DCC7524B6670000E6F4FA /* Assets.xcassets */; };
+		376DCC7924B6670000E6F4FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376DCC7824B6670000E6F4FA /* Preview Assets.xcassets */; };
+		376DCC7C24B6670000E6F4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376DCC7A24B6670000E6F4FA /* LaunchScreen.storyboard */; };
+		376DCC8524B6679A00E6F4FA /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC8424B6679A00E6F4FA /* GameListView.swift */; };
+		376DCC8724B667AE00E6F4FA /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC8624B667AE00E6F4FA /* GameModel.swift */; };
+		376DCC8C24B67AD300E6F4FA /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DCC8B24B67AD300E6F4FA /* GameListViewModel.swift */; };
+		37AED40D24B7859000933281 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 37AED40C24B7859000933281 /* URLImage */; };
+		37AED40F24B7A6DC00933281 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED40E24B7A6DC00933281 /* GameView.swift */; };
+		37AED41124B7A8A500933281 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED41024B7A8A500933281 /* GameViewModel.swift */; };
+		37AED41424B7FD3200933281 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED41324B7FD3200933281 /* CategoryModel.swift */; };
+		37AED41624B8082400933281 /* GameCategoryRecordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED41524B8082400933281 /* GameCategoryRecordListView.swift */; };
+		37AED41824B8342700933281 /* GameCategoryRecordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AED41724B8342700933281 /* GameCategoryRecordListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376DCC6C24B666FD00E6F4FA /* Speedster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376DCC6F24B666FD00E6F4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		376DCC7124B666FD00E6F4FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		376DCC7324B666FD00E6F4FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		376DCC7524B6670000E6F4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		376DCC7824B6670000E6F4FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		376DCC7B24B6670000E6F4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		376DCC7D24B6670000E6F4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376DCC8424B6679A00E6F4FA /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		376DCC8624B667AE00E6F4FA /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		376DCC8B24B67AD300E6F4FA /* GameListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
+		37AED40E24B7A6DC00933281 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		37AED41024B7A8A500933281 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		37AED41324B7FD3200933281 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		37AED41524B8082400933281 /* GameCategoryRecordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCategoryRecordListView.swift; sourceTree = "<group>"; };
+		37AED41724B8342700933281 /* GameCategoryRecordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCategoryRecordListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376DCC6924B666FD00E6F4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AED40D24B7859000933281 /* URLImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376DCC6324B666FD00E6F4FA = {
+			isa = PBXGroup;
+			children = (
+				376DCC6E24B666FD00E6F4FA /* Speedster */,
+				376DCC6D24B666FD00E6F4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		376DCC6D24B666FD00E6F4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376DCC6C24B666FD00E6F4FA /* Speedster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376DCC6E24B666FD00E6F4FA /* Speedster */ = {
+			isa = PBXGroup;
+			children = (
+				37AED41224B7FD2300933281 /* Categories */,
+				376DCC8324B6679300E6F4FA /* Games */,
+				376DCC6F24B666FD00E6F4FA /* AppDelegate.swift */,
+				376DCC7124B666FD00E6F4FA /* SceneDelegate.swift */,
+				376DCC7324B666FD00E6F4FA /* ContentView.swift */,
+				376DCC7524B6670000E6F4FA /* Assets.xcassets */,
+				376DCC7A24B6670000E6F4FA /* LaunchScreen.storyboard */,
+				376DCC7D24B6670000E6F4FA /* Info.plist */,
+				376DCC7724B6670000E6F4FA /* Preview Content */,
+			);
+			path = Speedster;
+			sourceTree = "<group>";
+		};
+		376DCC7724B6670000E6F4FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				376DCC7824B6670000E6F4FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		376DCC8324B6679300E6F4FA /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				376DCC8424B6679A00E6F4FA /* GameListView.swift */,
+				376DCC8624B667AE00E6F4FA /* GameModel.swift */,
+				376DCC8B24B67AD300E6F4FA /* GameListViewModel.swift */,
+				37AED40E24B7A6DC00933281 /* GameView.swift */,
+				37AED41024B7A8A500933281 /* GameViewModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		37AED41224B7FD2300933281 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37AED41324B7FD3200933281 /* CategoryModel.swift */,
+				37AED41524B8082400933281 /* GameCategoryRecordListView.swift */,
+				37AED41724B8342700933281 /* GameCategoryRecordListViewModel.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376DCC6B24B666FD00E6F4FA /* Speedster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376DCC8024B6670000E6F4FA /* Build configuration list for PBXNativeTarget "Speedster" */;
+			buildPhases = (
+				376DCC6824B666FD00E6F4FA /* Sources */,
+				376DCC6924B666FD00E6F4FA /* Frameworks */,
+				376DCC6A24B666FD00E6F4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedster;
+			packageProductDependencies = (
+				37AED40C24B7859000933281 /* URLImage */,
+			);
+			productName = Speedster;
+			productReference = 376DCC6C24B666FD00E6F4FA /* Speedster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376DCC6424B666FD00E6F4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Agron Gemajli";
+				TargetAttributes = {
+					376DCC6B24B666FD00E6F4FA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 376DCC6724B666FD00E6F4FA /* Build configuration list for PBXProject "Speedster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 376DCC6324B666FD00E6F4FA;
+			packageReferences = (
+				37AED40B24B7859000933281 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 376DCC6D24B666FD00E6F4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376DCC6B24B666FD00E6F4FA /* Speedster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376DCC6A24B666FD00E6F4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376DCC7C24B6670000E6F4FA /* LaunchScreen.storyboard in Resources */,
+				376DCC7924B6670000E6F4FA /* Preview Assets.xcassets in Resources */,
+				376DCC7624B6670000E6F4FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376DCC6824B666FD00E6F4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AED41624B8082400933281 /* GameCategoryRecordListView.swift in Sources */,
+				376DCC8724B667AE00E6F4FA /* GameModel.swift in Sources */,
+				376DCC7024B666FD00E6F4FA /* AppDelegate.swift in Sources */,
+				376DCC7224B666FD00E6F4FA /* SceneDelegate.swift in Sources */,
+				37AED41824B8342700933281 /* GameCategoryRecordListViewModel.swift in Sources */,
+				376DCC8524B6679A00E6F4FA /* GameListView.swift in Sources */,
+				37AED41124B7A8A500933281 /* GameViewModel.swift in Sources */,
+				376DCC7424B666FD00E6F4FA /* ContentView.swift in Sources */,
+				376DCC8C24B67AD300E6F4FA /* GameListViewModel.swift in Sources */,
+				37AED41424B7FD3200933281 /* CategoryModel.swift in Sources */,
+				37AED40F24B7A6DC00933281 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		376DCC7A24B6670000E6F4FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376DCC7B24B6670000E6F4FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		376DCC7E24B6670000E6F4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		376DCC7F24B6670000E6F4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		376DCC8124B6670000E6F4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Speedster/Preview Content\"";
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Speedster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrongemajli.Speedster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		376DCC8224B6670000E6F4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Speedster/Preview Content\"";
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Speedster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrongemajli.Speedster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376DCC6724B666FD00E6F4FA /* Build configuration list for PBXProject "Speedster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376DCC7E24B6670000E6F4FA /* Debug */,
+				376DCC7F24B6670000E6F4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376DCC8024B6670000E6F4FA /* Build configuration list for PBXNativeTarget "Speedster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376DCC8124B6670000E6F4FA /* Debug */,
+				376DCC8224B6670000E6F4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37AED40B24B7859000933281 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37AED40C24B7859000933281 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37AED40B24B7859000933281 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 376DCC6424B666FD00E6F4FA /* Project object */;
+}
